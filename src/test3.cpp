@@ -49,8 +49,7 @@ int main()
     return 0;  
 }
 
-// Constructor definition was incorrect. It needs the class scope `animal::`
-// and the signature must match the declaration.
+// Constructor definition needs the class scope `animal::` and the signature must match the declaration.
 animal::animal(string name, int age, string sound) : name(name), age(age), sound(sound)
 {
     cout << "animal is created" << endl;
